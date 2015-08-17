@@ -1,0 +1,6 @@
+{
+  "name": "Cat Vote",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
