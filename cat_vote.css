@@ -1,0 +1,42 @@
+.vote_cat
+{
+    position: fixed;
+    display: inline-block;
+    bottom:0;
+    left:0;
+    width:127px;
+}
+
+.vote_cat > a
+{
+    text-decoration: none;
+    display: block;
+}
+
+.vote_cat .bg
+{
+    bottom:0;
+    left:0;
+    position: absolute;
+    background: url("vote_cat.png") no-repeat transparent;
+}
+
+.vote_cat .layer1
+{
+    width: 127px;
+    height: 150px;
+    background-position: 0 100%;
+}
+
+.vote_cat .layer2
+{
+    display: none;
+    width: 127px;
+    height: 239px;
+    background-position: -126px 100%;
+}
+
+#vote_cat_sound
+{
+    display:none;
+}
