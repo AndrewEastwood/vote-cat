@@ -1,6 +1,7 @@
 {
   "name": "Cat Vote",
-  "version": "cat1.0","main": [
+  "version": "cat1.1",
+  "main": [
     "cat_vote.js",
     "cat_vote.css",
     "cat_sound.mp3",
