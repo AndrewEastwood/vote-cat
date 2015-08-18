@@ -1,5 +1,11 @@
 {
   "name": "Cat Vote",
+  "version": "cat1.0","main": [
+    "cat_vote.js",
+    "cat_vote.css",
+    "cat_sound.mp3",
+    "cat_sound.ogg"
+  ],
   "dependencies": {
     "jquery": "~2.1.4"
   }
