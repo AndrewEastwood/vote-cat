@@ -2,22 +2,24 @@
 <html>
 
 <head>
-    <title>Cat Vote Example</title>
-    <link href="cat_vote.css" media="all" rel="stylesheet" />
+  <title>Cat Vote Example</title>
+  <link href="cat_vote.css" media="all" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 </head>
 
 <body>
-    <div class="vote_cat">
-        <a href="javascript://">
-            <div class="bg layer1" style="display: block;"></div>
-            <div class="bg layer2" style="display: none;"></div>
-        </a>
-        <audio id="vote_cat_sound" controls="controls" preload="auto">
-            <source src="cat_sound.mp3" type="audio/mpeg">
-            <source src="cat_sound.ogg" type="audio/ogg">
-        </audio>
-    </div>
-    <script crossorigin="anonymous" src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script crossorigin="anonymous" src="cat_vote.js"></script>
+  <div class="vote_cat">
+    <a href="javascript://">
+      <div class="bg layer1" style="display: block;"></div>
+      <div class="bg layer2" style="display: none;"></div>
+      <span class="message" style="display: none;">MEOW :)</span>
+    </a>
+    <audio id="vote_cat_sound" controls="controls" preload="auto">
+      <source src="cat_sound.mp3" type="audio/mpeg">
+      <source src="cat_sound.ogg" type="audio/ogg">
+    </audio>
+  </div>
+  <script crossorigin="anonymous" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script crossorigin="anonymous" src="cat_vote.js"></script>
 </body>
 </html>
